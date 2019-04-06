@@ -1,4 +1,4 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly:InternalsVisibleTo("Quali.Metrics.Tests")]
+[assembly:InternalsVisibleTo("ExistsForAll.Metrics.Tests")]
 

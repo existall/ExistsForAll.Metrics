@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExistsForAll.Metrics", "core\ExistsForAll.Metrics\ExistsForAll.Metrics.csproj", "{83A3F32F-279E-4598-B34B-D921B651DED3}"
 EndProject
@@ -9,7 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{E4151511-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{26A54D74-2E23-493E-9723-F1BDA06CA0B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExistsForAll.Metrics.Tests", "tests\ExistsForAll.Metrics.Tests\ExistsForAll.Metrics.Tests.csproj", "{8DCAD268-488B-4F66-8667-21EA6F4C11BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExistsForAll.Metrics.Tests", "tests\ExistsForAll.Metrics.Tests\ExistsForAll.Metrics.Tests.csproj", "{8DCAD268-488B-4F66-8667-21EA6F4C11BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{8C84904C-81B2-4949-A272-F133CF9BC467}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		properties.props = properties.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
